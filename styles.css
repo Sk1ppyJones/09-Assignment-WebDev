@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(106, 156, 123);
+    font-size: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2em;
+    color: rgb(24, 49, 33);
+    text-shadow: 2px 2px 2px rgb(189, 245, 203);
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+.main {
+    grid-column: 1 / 2;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: 3px solid black;
+    box-shadow: -0.5em 0em .5em black;
+    padding-bottom: 1em;
+}
+
+#displaySongs{
+    grid-column: 2 / 3;
+    margin-left: 1em;
+}
+
+input {
+    height: 2em;
+}
+
+table {
+    width: 45vw;
+    box-shadow: .5em .5em .5em black;
+}
+
+table, th, td {
+    border: .2em double black;
+    border-collapse: collapse;
+    padding: .3em;
+    text-align: center;
+}
+
+#submit {
+    width: 30%;
+    font-size: 1em;
+    background-color: rgb(106, 156, 123);
+    box-shadow: .2em .2em .2em black;
+}
